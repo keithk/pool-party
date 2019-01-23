@@ -1,0 +1,47 @@
+.body {
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  font-family: Rubik;
+
+  font-weight: 700;
+
+  font-size: 28px;
+
+  letter-spacing: 1.5px;
+}
+
+.cards {
+  width: 90%;
+
+  max-width: 1240px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  grid-template-rows: auto;
+
+  grid-gap: 20px;
+}
+
+@media only screen and (min-width: 500px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

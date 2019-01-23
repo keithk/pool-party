@@ -1,0 +1,11 @@
+{
+  "env": {
+    "NODE_ENV": "development",
+
+    "AWS_ACCESS_KEY_ID": "AKIAIMRFNQIFZZ2HLRIA",
+
+    "AWS_SECRET_ACCESS_KEY": "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"
+  },
+
+  "ignore": ["client/*"]
+}

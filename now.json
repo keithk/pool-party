@@ -1,0 +1,7 @@
+{
+  "name": "pool-party",
+  "alias": "pool.cute.is",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
